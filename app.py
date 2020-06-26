@@ -7,8 +7,8 @@ from sklearn.neighbors import NearestNeighbors
 import requests
 import sklearn
 
-movie_features_df=pickle.load(open('movie_features_df.pkl','rb'))
-movie_names=pickle.load(open('movie_names.pkl','rb'))
+movie_features_df=pickle.load(open('movie_features_df_remake.pkl','rb'))
+movie_names=pickle.load(open('movie_names_remake.pkl','rb'))
 
 
 app=Flask(__name__)
